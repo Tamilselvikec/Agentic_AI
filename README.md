@@ -7,4 +7,4 @@
 To create virtual env, use these commands
 > python -m venv agent_env\
 > source agent_env/bin/activate\
-> pip install -r requirements.txt\
+> pip install -r requirements.txt
