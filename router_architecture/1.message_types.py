@@ -14,7 +14,7 @@ response = llm.invoke(msg)
 # invoke() accepts str/list of str
 
 
-print(response) #entire response
+# print(response) #entire response
 print(response.content) # Only LLM generated response
 print(type(response)) # response is of type AI message
 

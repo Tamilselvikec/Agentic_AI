@@ -11,14 +11,14 @@ def add (a:int, b:int) -> int:
 
 #Define LLM
 llm = ChatOllama(
-    model = "llama3.1:latest"
+    model = "llama3.1:latest",
 )
 
 #Bind LLM with tool
 
 llm_with_tool = llm.bind_tools([add]) #bind_tools takes list of tools
 
-resp = llm_with_tool.invoke("add 2 and 3")
+resp = llm_with_tool.invoke("can you add 2 and 3?")
 print(resp)
 
 print("----------------------------------------------------------------------")

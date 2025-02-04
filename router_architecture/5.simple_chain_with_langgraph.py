@@ -42,7 +42,9 @@ png_data = graph.get_graph().draw_mermaid_png()
 with open("output.png", "wb") as f:
     f.write(png_data)
 
-msg = {"messages":[HumanMessage(content="hello")]}
+# msg = {"messages":[HumanMessage(content="hello")]}
+
+msg = {"messages":[HumanMessage(content="add 2 and 3, multiply by 2")]}
 
 response = graph.invoke(msg)
 
