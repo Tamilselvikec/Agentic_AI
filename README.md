@@ -5,6 +5,6 @@
 
 
 To create virtual env,
-> python -m venv agent_env
-> source agent_env/bin/activate
-> pip install -r requirements.txt
+> python -m venv agent_env\
+> source agent_env/bin/activate\
+> pip install -r requirements.txt\
